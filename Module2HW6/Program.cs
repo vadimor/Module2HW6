@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Module2HW6.Helper;
 
 namespace Module2HW6
 {
@@ -6,7 +6,8 @@ namespace Module2HW6
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var start = new Starter();
+            start.Start();
         }
     }
 }
